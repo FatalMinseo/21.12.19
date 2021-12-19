@@ -1,4 +1,4 @@
-
+//sql문에서 써 먹은 내용
 alter table landmember
 add win number(5) default 0
 
@@ -42,13 +42,13 @@ select *
 from landmember
 
 delete from land
-where landname = '���ʽ�4'
+where landname = 'º¸³Ê½º4'
 
 insert into LAND(landname,landnumber)
-values('���ʽ�1', 4)
+values('º¸³Ê½º1', 4)
 
 insert into LAND(landname,landnumber)
-values('���ʽ�4', 27)
+values('º¸³Ê½º4', 27)
 
 update landmember
 set price = 35
